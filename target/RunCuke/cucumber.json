@@ -1,0 +1,549 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7098824700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify user should navigate to login page successfully",
+        "description": "",
+        "id": "account-login-page;verify-user-should-navigate-to-login-page-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 106601100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "AccountLoginTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 110768600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on \u0027MyAccountTab\u0027 link",
+            "match": {
+              "location": "AccountLoginTestSteps.iClickOnMyAccountTabLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 543813800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select \"Login\" option from my accounts dropdown list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login",
+                  "offset": 10
+                }
+              ],
+              "location": "AccountLoginTestSteps.iSelectOptionFromMyAccountsDropdownList(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59840000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify \"Returning Customer\" text on account login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Returning Customer",
+                  "offset": 10
+                }
+              ],
+              "location": "AccountLoginTestSteps.iVerifyTextOnAccountLoginPage(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@sanity"
+          },
+          {
+            "line": 4,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Account Login Page",
+    "description": "As a user I want to check Account login page functionality",
+    "id": "account-login-page",
+    "keyword": "Feature",
+    "uri": "accountloginpagetest.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4792738300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify user should navigate to login page successfully",
+        "description": "",
+        "id": "account-register-page;verify-user-should-navigate-to-login-page-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 26800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "AccountLoginTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 84262500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on \u0027MyAccountTab\u0027 link",
+            "match": {
+              "location": "AccountLoginTestSteps.iClickOnMyAccountTabLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 905502000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select \"Register\" option from my accounts dropdown list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Register",
+                  "offset": 10
+                }
+              ],
+              "location": "AccountLoginTestSteps.iSelectOptionFromMyAccountsDropdownList(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51207800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify \"Register Account\" text on account register page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Register Account",
+                  "offset": 10
+                }
+              ],
+              "location": "AccountRegisterTestSteps.iVerifyTextOnAccountRegisterPage(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@sanity"
+          },
+          {
+            "line": 4,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Account Register Page",
+    "description": "As a user I want to check Account register page functionality",
+    "id": "account-register-page",
+    "keyword": "Feature",
+    "uri": "accountregisterpagetest.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5248760600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify product arranged in alphabetical order",
+        "description": "",
+        "id": "desktops-page;verify-product-arranged-in-alphabetical-order",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "AccountLoginTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 988924700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I select currency as \"£Pound Sterling\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£Pound Sterling",
+                  "offset": 22
+                }
+              ],
+              "location": "DesktopsPageTestSteps.iSelectCurrencyAs(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 208371600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I mouse hover on \u0027Desktops\u0027 link and click",
+            "match": {
+              "location": "DesktopsPageTestSteps.iMouseHoverOnDesktopsLinkAndClick()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1735400600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select menu as \"Show AllDesktops\" from top menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Show AllDesktops",
+                  "offset": 18
+                }
+              ],
+              "location": "DesktopsPageTestSteps.iSelectMenuAsFromTopMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 813284600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select sort by option as \"Name (Z - A)\" on desktops page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Name (Z - A)",
+                  "offset": 28
+                }
+              ],
+              "location": "DesktopsPageTestSteps.iSelectSortByOptionAsOnDesktopsPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 599338300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify elements are sorted in reverse order",
+            "match": {
+              "location": "DesktopsPageTestSteps.iVerifyElementsAreSortedInReverseOrder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@sanity"
+          },
+          {
+            "line": 4,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Desktops Page",
+    "description": "As a user I want to check Desktops page functionality",
+    "id": "desktops-page",
+    "keyword": "Feature",
+    "uri": "desktopspagetest.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6146030100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify products price display high to low successfully",
+        "description": "",
+        "id": "laptops-and-notebooks-page;verify-products-price-display-high-to-low-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 84000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "AccountLoginTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 636727600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I mouse hover on \u0027Laptops and notebooks\u0027 link and click",
+            "match": {
+              "location": "LaptopsAndNotebooksTestSteps.iMouseHoverOnLaptopsAndNotebooksLinkAndClick()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1490799700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select menu as \"Show AllLaptops \u0026 Notebooks\" from top menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Show AllLaptops \u0026 Notebooks",
+                  "offset": 18
+                }
+              ],
+              "location": "DesktopsPageTestSteps.iSelectMenuAsFromTopMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 648155600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select sort by option as \"Price (High \u003e Low)\" on desktops page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Price (High \u003e Low)",
+                  "offset": 28
+                }
+              ],
+              "location": "DesktopsPageTestSteps.iSelectSortByOptionAsOnDesktopsPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 341625800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I verify products are arranged in reverse order",
+            "match": {
+              "location": "LaptopsAndNotebooksTestSteps.iVerifyProductsAreArrangedInReverseOrder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@sanity"
+          },
+          {
+            "line": 4,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Laptops and Notebooks page",
+    "description": "As a user I want to check laptops and notebooks page functionality",
+    "id": "laptops-and-notebooks-page",
+    "keyword": "Feature",
+    "uri": "laptopsandnotebookstest.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7272973100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify user should navigate to desktops page successfully",
+        "description": "",
+        "id": "top-menu-test;verify-user-should-navigate-to-desktops-page-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 36100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "AccountLoginTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 310329700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I mouse hover on \u0027Desktops\u0027 link and click",
+            "match": {
+              "location": "DesktopsPageTestSteps.iMouseHoverOnDesktopsLinkAndClick()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1838239300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select menu as \"Show AllDesktops\" from top menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Show AllDesktops",
+                  "offset": 18
+                }
+              ],
+              "location": "DesktopsPageTestSteps.iSelectMenuAsFromTopMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56150500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify the title as \"Desktops\" on desktops page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Desktops",
+                  "offset": 23
+                }
+              ],
+              "location": "TopMenuTestSteps.iVerifyTheTitleAsOnDesktopsPage(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@sanity"
+          },
+          {
+            "line": 4,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Top menu test",
+    "description": "As a user I want to check Top menu functionality",
+    "id": "top-menu-test",
+    "keyword": "Feature",
+    "uri": "topmenutest.feature"
+  }
+]
